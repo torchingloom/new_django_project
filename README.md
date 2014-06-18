@@ -1,2 +1,2 @@
-zaomonolit
+new django project
 ===
