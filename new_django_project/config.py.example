@@ -1,0 +1,18 @@
+# coding: utf-8
+
+DEBUG = True
+
+DATABASE_ENGINE = 'postgresql_psycopg2'
+
+DATABASES = {
+    'default': {
+        'PSQL': 'psql',
+        'PGDUMP': 'pg_dump',
+        'ENGINE': 'django.db.backends.%s' % DATABASE_ENGINE,
+        'NAME': 'new_django_project',
+        'USER': 'new_django_project',
+        'PASSWORD': '12345',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
